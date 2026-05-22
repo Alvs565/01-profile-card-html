@@ -1,0 +1,58 @@
+/* Page background and overall text alignment */
+body {
+  background-color: lightblue; /* set the whole page background color */
+  text-align: center; /* center-align inline text inside the body */
+  margin: 0; /* remove default browser body margin */
+  font-family: Arial, sans-serif; /* use a simple sans-serif font for readability */
+}
+
+/* Card container styling */
+main {
+  margin: 4rem auto; /* center horizontally and add top/bottom spacing */
+  width: min(90%, 440px); /* keep the card responsive while limiting its max width */
+  padding: 1.5rem; /* add inner space so contents don't touch edges */
+  border: 1px solid #bbb; /* add a light border around the card */
+  border-radius: 12px; /* round the card corners slightly */
+  background: white; /* give the card a white background on the blue page */
+}
+
+/* Center the profile image above the heading */
+main img {
+  display: block;
+  margin: 0 auto 1rem;
+  width: 160px;
+  max-width: 100%;
+}
+
+/* Favorite websites list styling */
+ul {
+  list-style: none;
+  margin: 1.25rem 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0.5rem 0;
+}
+
+/* Main heading style */
+h1 {
+  font-size: 3rem; /* make the primary heading large */
+  color: rgb(8, 8, 11); /* use a strong, dark color for contrast */
+  margin: 0 0 0.25em; /* remove top margin and keep a small gap below */
+}
+
+/* Subheading style */
+h2 {
+  font-size: 2rem; /* make the subheading slightly smaller than the main heading */
+  color: slategray; /* a softer color than the main heading */
+  margin: 0 0 1em; /* add space below so the paragraph is separated */
+}
+
+/* Paragraph text styling */
+p {
+  font-size: 1.1rem; /* keep paragraph text readable and slightly larger than default */
+  line-height: 1.6; /* add line spacing for better readability */
+  color: #555; /* use a medium gray for comfortable reading */
+  margin: 0; /* remove default paragraph margins */
+}
